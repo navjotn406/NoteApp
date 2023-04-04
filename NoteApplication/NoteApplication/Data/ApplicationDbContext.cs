@@ -21,6 +21,6 @@ namespace NoteApplication.Data
             }
         }
 
-        public DbSet<Note>? Notes { get; set; }
+        public DbSet<Note> Notes { get; set; }
     }
 }

@@ -12,7 +12,7 @@
             </div>
             <div class="col-2">
                 <a class="btn btn-success form-control" asp-action="Create">
-                    <i class="bi bi-plus-circle-fill"></i>
+                    <i class="fa-solid fa-plus"></i>
                     Create Note
                 </a>
             </div>
@@ -26,7 +26,7 @@
                         <div class="input-group-append">
                             <button type="submit" class="serach-btn">
                                 <span class="input-group-text red lighten-3" id="search_text">
-                                    <i class="bi bi-search"></i>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
                                 </span>
                             </button>
                         </div>
@@ -45,8 +45,8 @@
                             <hr>
                             <p>@note.Description</p>
                             <div class="top-btns">
-                                <a asp-action="Edit" asp-route-id="@note.Id"><i class="bi bi-pencil-square"></i></a>
-                                <a asp-action="Delete" asp-route-id="@note.Id"><i class="bi bi-trash-fill"></i></a>
+                                <a asp-action="Edit" asp-route-id="@note.Id"><i class="fa-solid fa-pen-to-square"></i></a>
+                                <a asp-action="Delete" asp-route-id="@note.Id"><i class="fa-solid fa-trash"></i></a>
                             </div>
                         </div>
                     </div>
