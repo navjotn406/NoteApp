@@ -1,4 +1,5 @@
 ﻿using NoteApplication.Core.IRepositories;
+using NoteApplication.Data;
 using NoteApplication.Models;
 
 namespace NoteApplication.Core.Repositories

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NoteApplication.Core.IRepositories;
+using NoteApplication.Data;
 using System.Linq.Expressions;
 
 namespace NoteApplication.Core.Repositories
