@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L7L/ZLxWNSaYCjmlKroUvEeH7fzBsxlZAWfBX/2jVPk=",
+  "Hash": "YGWZeQ38iy7LIDwRmv1O+zwZ5B6Yhgu3q9m/PB9Y7Jc=",
   "Source": "NoteApplication",
   "BasePath": "_content/NoteApplication",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\NoteApp\\NoteApplication\\NoteApplication\\wwwroot\\images\\logo.png",
+      "SourceId": "NoteApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\NoteApp\\NoteApplication\\NoteApplication\\wwwroot\\",
+      "BasePath": "_content/NoteApplication",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "D:\\NoteApp\\NoteApplication\\NoteApplication\\wwwroot\\js\\site.js",
