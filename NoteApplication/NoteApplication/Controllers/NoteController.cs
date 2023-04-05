@@ -43,9 +43,9 @@ namespace NoteApplication.Controllers
 
         //note/create
         [HttpGet]
-        public IActionResult Create()
+        public ActionResult Create()
         {
-            return View(new NoteViewModel());
+            return View();
         }
 
         [HttpPost]

@@ -24,6 +24,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
+builder.Services.AddHttpContextAccessor();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
